@@ -1,0 +1,11 @@
+*.rds
+*.Rds
+*.RData
+*.Rdata
+*.rdata
+*.Rhistory
+*.dbf
+*.prj
+*.shx
+*.shp
+*.pdf

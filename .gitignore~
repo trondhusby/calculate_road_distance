@@ -1,0 +1,10 @@
+*.rds
+*.Rds
+*.RData
+*.Rdata
+*.rdata
+*.dbf
+*.prj
+*.shx
+*.shp
+*.pdf
