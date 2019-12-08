@@ -22,11 +22,10 @@ n_cores <- detectCores() - 1
 source('read_files.R')
 
 ## calculate population weighted centroids of municipalities
-
+source('calculate_popw_centroids.R')
 
 ## calculate distance over the road between buurt and gem centroids
 url <- "http://127.0.0.1:5000" ## url of local backend
-
 pckgs <- c('data.table', 'httr', 'jsonlite')
 
 ## initiate cluster
@@ -54,3 +53,5 @@ for (year %in% seq(2009, 2018)) {
 
 stopImplicitCluster()
 registerDoSEQ()
+
+## end of script
